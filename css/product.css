@@ -1,0 +1,301 @@
+.product-section {
+  padding: 100px 0 120px;
+}
+
+/*slider*/
+.slider-nav {
+  margin-top: 28px;
+}
+
+.slick-arrow {
+  width: 12px;
+  height: 20px;
+  z-index: 5;
+}
+
+.slick-arrow:before {
+  display: none;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-prev,
+.slick-prev:focus {
+  background: url(../img/arrow-left.png)no-repeat center center;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-next,
+.slick-next:focus {
+  background: url(../img/arrow-right.png)no-repeat center center;
+}
+
+.slide-item img {
+  margin: 0 auto;
+}
+
+.nav-item {
+  padding: 0 6px;
+}
+
+.nav-item img {
+  border: 1px solid transparent;
+}
+
+.slider-nav .slick-current img {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+
+
+/*checklist*/
+.checklist {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 24px;
+}
+
+.checklist li {
+  background: url(../img/tick.png) no-repeat top 2px left;
+  padding-left: 22px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #34393A;
+  margin-bottom: 12px;
+}
+
+/*delivery*/
+.delivery {
+  font-size: 14px;
+  line-height: 24px;
+  color: #545C5F;
+}
+
+.delivery a {
+  color: #545C5F;
+  text-decoration: underline;
+}
+
+.delivery a:hover {
+  color: #00BA74;
+}
+
+/*product details*/
+.product-detail h2 {
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 700;
+  color: #222323;
+  margin: 0 0 8px;
+}
+
+.product-detail p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F5659;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 12px;
+  line-height: 19px;
+  color: #939C9F;
+  font-weight: 600;
+}
+
+/*rating*/
+.rating {
+  font-size: 16px;
+  line-height: 24px;
+  color: #202324;
+  display: flex;
+  align-items: center;
+  margin: 32px 0 40px;
+}
+
+.rating-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.rating-list li {
+  float: left;
+}
+
+.rating-list img {
+  vertical-align: baseline;
+}
+
+.review-count {
+  margin-left: 5px;
+}
+
+/*color set*/
+.color-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 19px;
+}
+
+.item {
+  border: 1px solid #D8E0E2;
+  border-radius: 6px;
+  min-height: 60px;
+  width: 124px;
+  margin: 0 8px 8px 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sub-heading {
+  align-items: baseline;
+}
+
+.sub-heading>* {
+  width: 100%;
+}
+
+.selected {
+  border: 2px solid #202324;
+}
+
+.color-name {
+  font-size: 13px;
+  line-height: 16px;
+  color: #545C5F;
+}
+
+.highlight {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.orange {
+  background: #DE742D;
+}
+
+.purple {
+  background: #A07EDC;
+}
+
+/*cart*/
+.add-to-bag {
+  background: #00BA74;
+  border: 1px solid #00BA74;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  width: 100%;
+  transition: all .25s;
+  margin-bottom: 24px;
+}
+
+.add-to-bag:hover {
+  background: transparent;
+  color: #00BA74;
+}
+
+.add-to-bag img {
+  margin-right: 15px;
+}
+
+/*quantity*/
+.quantity-set {
+  margin-top: 12px;
+}
+
+.btn-set {
+  margin-top: 10px;
+}
+
+/*buy-options*/
+.buy-options {
+  margin: 32px 0 24px;
+}
+
+.buy-options ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.buy-options li:not(:last-child) {
+  margin-bottom: 21px;
+}
+
+.buy-options label {
+  font-weight: 400;
+  margin: 0;
+}
+
+.buy {
+  font-weight: 600;
+}
+
+.buy span {
+  color: #00BA74;
+}
+
+.pay {
+  background: #B1FBE3;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 0 8px;
+  margin-right: 5px;
+  color: #000000;
+}
+
+.buy-options input {
+  display: none;
+}
+
+.buy-options label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202324;
+  padding-left: 32px;
+  background: url(../img/radio.png) no-repeat left 0px top 5px;
+}
+
+.buy-options input:checked+label {
+  background: url(../img/radio-chk.png) no-repeat left 0px top 5px;
+}
+
+@media (max-width: 767px) {
+  .product-section {
+    padding: 50px 0;
+  }
+
+  .product-detail {
+    margin-top: 40px;
+  }
+
+  .product-detail h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}

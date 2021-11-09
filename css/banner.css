@@ -1,0 +1,103 @@
+.banner {
+  background: #03062f;
+  min-height: 700px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.banner:after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: -49px;
+  width: 62px;
+  height: 120px;
+  background: #fff;
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: -48px;
+  height: 95px;
+  width: 100%;
+  background: #fff;
+  transform: rotate(2deg);
+  pointer-events: none;
+}
+
+.content-area {
+  color: #fff;
+}
+
+.content-area h1 {
+  font-family: 'HK-Grotesk';
+  margin: 0;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 53px;
+  position: relative;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+}
+
+.content-area h1:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 4px;
+  background: #58c19c;
+}
+
+.content-area p {
+  font-family: 'HK-Grotesk';
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 380px;
+  margin-bottom: 44px;
+}
+
+.sign-up-nw {
+  background: #2783F3;
+  border: 1px solid #2783F3;
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 11px 18px;
+  transition: all .25s;
+  font-weight: 700;
+}
+
+.sign-up-nw:hover {
+  color: #2783F3;
+  background: transparent;
+}
+
+
+@media (max-width: 767px) {
+  .banner {
+    padding: 40px 0 100px;
+    min-height: auto;
+  }
+
+  .content-area h1 {
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .content-area p {
+    margin-bottom: 24px;
+  }
+}

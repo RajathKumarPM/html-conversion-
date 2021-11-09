@@ -1,0 +1,11 @@
+body {
+  font-family: 'HK-Grotesk';
+  font-weight: 400;
+  padding-top: 58px;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-top: 46px;
+  }
+}
